@@ -6,6 +6,9 @@ import { TileComponent } from './tile.component';
   imports: [
     CommonModule
   ],
+  exports: [
+    TileComponent
+  ],
   declarations: [TileComponent]
 })
 export class TileModule { }

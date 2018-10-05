@@ -18,10 +18,10 @@
     ],
     "paths": {
       "components": [
-        "dist/components"
+        "projects/components"
       ],
       "components/*": [
-        "dist/components/*"
+        "projects/components/*"
       ]
     }
   }
