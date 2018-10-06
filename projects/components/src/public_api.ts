@@ -4,5 +4,5 @@
 
 export * from './lib/welcome/welcome.component';
 export * from './lib/welcome/welcome.module';
-export * from './lib/tile/tile.component';
-export * from './lib/tile/tile.module';
+export * from './lib/modal/modal.component';
+export * from './lib/modal/modal.module';

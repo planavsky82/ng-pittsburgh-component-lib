@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { TileComponent } from './tile.component';
+import { ModalComponent } from './modal.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
+  declarations: [ModalComponent],
   exports: [
-    TileComponent
-  ],
-  declarations: [TileComponent]
+    ModalComponent
+  ]
 })
-export class TileModule { }
+export class ModalModule { }

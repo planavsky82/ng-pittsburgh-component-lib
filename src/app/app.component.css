@@ -23,10 +23,11 @@ section {
   margin: 0 auto 15px;
   background: #fff;
   width: 75%;
+  padding: 20px;
 }
 
 section h2 {
-  margin: 0;
+  margin: 0 0 25px;
   font-weight: 200;
   color: #B22222;
   border-bottom: 1px solid #aaa;

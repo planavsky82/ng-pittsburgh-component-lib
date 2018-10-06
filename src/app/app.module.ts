@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import { WelcomeModule } from 'components/src/lib/welcome/welcome.module';
-import { TileModule } from 'components/src/lib/tile/tile.module';
+import { ModalModule } from 'components/src/lib/modal/modal.module';
 
 @NgModule({
   declarations: [
@@ -13,7 +13,7 @@ import { TileModule } from 'components/src/lib/tile/tile.module';
   imports: [
     BrowserModule,
     WelcomeModule,
-    TileModule
+    ModalModule
   ],
   providers: [],
   bootstrap: [AppComponent]
