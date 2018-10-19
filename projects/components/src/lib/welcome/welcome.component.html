@@ -1,3 +1,10 @@
-<p>
-  welcome works!
-</p>
+<div class="welcome">
+  <div class="message">
+    <div class="welcome-text">Welcome</div>
+    <div class="welcome-name">{{ this.form.get('field').value }}</div>
+  </div>
+  <div class="select" [formGroup]="form">
+    <label>Name: </label>
+    <input formControlName="field" type="text" />
+  </div>
+</div>

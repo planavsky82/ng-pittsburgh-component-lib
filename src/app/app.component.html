@@ -3,10 +3,28 @@
 <section>
   <h2>Welcome Component</h2>
   <pgh-welcome></pgh-welcome>
+
+<h3>Source Code:</h3>
+<pre>
+&lt;pgh-welcome>&lt;/pgh-welcome>
+</pre>
 </section>
 
 <section>
   <h2>Modal Component</h2>
-  <pgh-modal></pgh-modal>
+  <pgh-modal>
+    <div class="title">Modal Title</div>
+    <div class="body">Sample Modal Content</div>
+  </pgh-modal>
+  <button (click)="toggle()">Launch Modal</button>
+
+<h3>Source Code:</h3>
+<pre>
+&lt;pgh-modal>
+  &lt;div class="title">Modal Title&lt;/div>
+  &lt;div class="body">Sample Modal Content&lt;/div>
+&lt;/pgh-modal>
+&lt;button (click)="toggle()">Launch Modal&lt;/button>
+</pre>
 </section>
 

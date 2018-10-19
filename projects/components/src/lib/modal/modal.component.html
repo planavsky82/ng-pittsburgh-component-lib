@@ -1,3 +1,10 @@
-<p>
-  modal works!
-</p>
+<div class="modal-bg" [@openCloseBg]="isOpen ? 'open' : 'closed'"></div>
+<div class="modal" [@openCloseModal]="isOpen ? 'open' : 'closed'">
+  <div class="modal-title">
+    <ng-content select=".title"></ng-content>
+    <div class="modal-close" (click)="toggle()">X</div>
+  </div>
+  <div class="modal-body">
+    <ng-content select=".body"></ng-content>
+  </div>
+</div>

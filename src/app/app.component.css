@@ -3,12 +3,11 @@ h1 {
   font-size: 40px;
   background: #aaa;
   color: #fff;
-  border-bottom: 4px solid #000;
+  border-bottom: 1px solid #555;
   padding: 10px;
   text-align: center;
   margin: 0 auto 15px;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+  text-shadow: #555 1px 1px 1px;
 }
 
 h1 span {
@@ -31,4 +30,14 @@ section h2 {
   font-weight: 200;
   color: #B22222;
   border-bottom: 1px solid #aaa;
+}
+
+h3 { margin: 35px 0 0 0; }
+
+button {
+  background: #bbb;
+  padding: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
 }
